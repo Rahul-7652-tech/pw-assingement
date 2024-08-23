@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #06ccccc4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+@media only screen and (max-width: 1440px) {
+    body{
+        background-color: green;
+    }
+    
+}
+@media only screen and (max-width: 1024px) {
+    body{
+        background-color: #814f03;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: #146377;
+    }
+    
+}
+@media only screen and (max-width: 452px) {
+    body{
+        background-color: #470000;
+    }
+    
+}
